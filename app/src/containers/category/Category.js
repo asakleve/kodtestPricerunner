@@ -18,30 +18,6 @@ export default class Category extends Component {
 
     constructor(props) {
         super(props);
-        this.renderItems = this.renderItems.bind(this);
-
-    }
-
-    renderItems() {
-        const {category: {products}} = this.state;
-
-        if (products) {
-            products.map((item, index) => {
-                return (
-                    <CategoryItem
-                        key={index + item.id}
-                        id={item.id}
-                        name={item.name}
-                        description={item.description}
-                        url={item.url}
-                        numberOfMerchants={item.numberOfMerchants}
-                        amount={item.cheapestPrice.amount}
-                        currency={item.cheapestPrice.currency}
-                        image={item.imageId}
-                    />
-                );
-            })
-        }
 
     }
 
@@ -69,6 +45,7 @@ export default class Category extends Component {
                             currency={item.cheapestPrice.currency}
                             imageId={item.imageId}
                             image={getProductImageLink(item)}
+                            averageRating={Number(item.rating.averageRating)}
                         />
                     );
                 })

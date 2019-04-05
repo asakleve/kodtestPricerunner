@@ -4,15 +4,12 @@ import './Category.scss';
 import ListItemText from "@material-ui/core/ListItemText/ListItemText";
 import Typography from "@material-ui/core/Typography/Typography";
 import Button from "@material-ui/core/Button/Button";
-import {getProductImageLink} from "../../utils/imageUtils";
-import Icon from '@material-ui/core/Icon';
+import Rating from 'material-ui-rating';
 
 
 export default class CategoryItem extends Component {
 
     render() {
-        console.log('hej');
-
         const {
             id,
             name,
@@ -21,13 +18,18 @@ export default class CategoryItem extends Component {
             numberOfMerchants,
             amount,
             currency,
-            image
+            image,
+            averageRating
 
         } = this.props;
 
         return (
             <ListItem className="listItem">
                 <img className="image" src={image}/>
+                <Rating readOnly={true}
+                    value={averageRating}
+                    max={5}
+                />
                 <ListItemText primary={name} secondary={description}/>
                 <Typography className="merchants">
                     {numberOfMerchants}
