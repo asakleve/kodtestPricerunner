@@ -1,15 +1,15 @@
 import React, {PureComponent} from 'react';
-import {getCategoryList} from './state/category';
 import CategoryItem from '../../components/CategoryItem';
 import './Category.scss';
 import List from "@material-ui/core/List/List";
 import {getProductImageLink} from "../../utils/imageUtils";
+import {getSortedItemList} from "../../selectors/categoryItemSelector";
 
 export default class Category extends PureComponent {
     state = {category: {}};
 
     componentDidMount() {
-        const loadedData = getCategoryList();
+        const loadedData = getSortedItemList();
 
         this.setState({
             category: loadedData,

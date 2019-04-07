@@ -1,55 +1,9 @@
+@import '../../assets/fonts';
+
+
 .list {
   background: #F8F8F8;
 }
-
-.listItem {
-  width: 300px;
-  height: 140px;
-  margin-top: 20px;
-  background: white;
-  display:flex;
-  flex-wrap: wrap;
-
-  .button{
-    width: 170px;
-    padding: 2px;
-    background:dodgerblue;
-  }
-}
-.firstinfo{
-  display:flex;
-}
-
-.extrainfo{
-  display: flex;
-  button{
-    padding:0;
-    svg{
-      color: #ffcc00;
-      width:15px;
-    }
-  }
-  .merchants{
-    margin-left: 20px;
-    font-size: 20px;
-  }
-  .amount{
-    margin-left: 20px;
-    font-size: 20px;
-  }
-  .currency{
-    font-size: 20px;
-  }
-
-}
-
-.listItemText {
-  margin-top: 20px;
-  font-size: 20px;
-}
-
-
-.image {
-  height: 80px;
-  width: auto;
+body .list{
+  font-family: "Maven Pro";
 }
