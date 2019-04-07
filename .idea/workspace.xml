@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/src/containers/category/CategoryItem.js" line="48" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/components/CategoryItem.js" line="48" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b446b42d-ab78-41ca-81a2-0b134f925c92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/containers/category/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/containers/category/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/containers/category/CategoryItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/containers/category/CategoryItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/containers/category/CategoryItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/CategoryItem.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +26,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="html" value="1" />
           <entry key="js" value="21" />
           <entry key="json" value="11" />
@@ -41,7 +39,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="11" />
           <entry key="JavaScript" value="21" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="6" />
           <entry key="TypeScript" value="4" />
         </counts>
@@ -49,13 +47,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="13" />
-          <entry key="js" value="6266" />
+          <entry key="js" value="6288" />
           <entry key="scss" value="524" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="6266" />
+          <entry key="JavaScript" value="6288" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="SCSS" value="524" />
         </counts>
@@ -111,13 +109,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/containers/category/CategoryItem.js">
+        <entry file="file://$PROJECT_DIR$/app/src/components/CategoryItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="559">
+              <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -157,6 +164,7 @@
         <option value="$PROJECT_DIR$/app/package.json" />
         <option value="$PROJECT_DIR$/app/src/containers/category/Category.js" />
         <option value="$PROJECT_DIR$/app/src/containers/category/CategoryItem.js" />
+        <option value="$PROJECT_DIR$/app/src/components/CategoryItem.js" />
       </list>
     </option>
   </component>
@@ -213,6 +221,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kodtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodtest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodtest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -230,6 +253,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/components" />
       <recent name="$PROJECT_DIR$/app/src/containers/category" />
       <recent name="$PROJECT_DIR$/app/src/containers/category/state" />
     </key>
@@ -257,12 +281,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554309200429</updated>
       <workItem from="1554309201646" duration="5044000" />
-      <workItem from="1554447644054" duration="32461000" />
+      <workItem from="1554447644054" duration="33130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37505000" />
+    <option name="totallyTimeSpent" value="38174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="23" width="1315" height="828" extended-state="0" />
@@ -299,13 +323,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -425,10 +442,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/containers/category/CategoryItem.js">
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="460">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/CategoryItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
