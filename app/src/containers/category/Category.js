@@ -31,10 +31,10 @@ export default class Category extends PureComponent {
             <List className="list">
                 /* sortera på rank*/
                 {this.state.category.products &&
-                products.map((item, index) => {
+                products.map((item) => {
                     return (
                         <CategoryItem
-                            key={index + item.id}
+                            key={item.id}
                             id={item.id}
                             name={item.name}
                             description={item.description}
