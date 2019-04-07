@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import ListItem from '@material-ui/core/ListItem';
 import '../containers/category/Category.scss';
 import ListItemText from "@material-ui/core/ListItemText/ListItemText";
@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button/Button";
 import Rating from 'material-ui-rating';
 import PropTypes from 'prop-types';
 
-export default class CategoryItem extends Component {
+export default class CategoryItem extends PureComponent {
 
     render() {
         const {
