@@ -6,7 +6,7 @@ import {getProductImageLink} from "../../utils/imageUtils";
 import {getSortedItemList} from "../../selectors/categoryItemSelector";
 
 export default class Category extends PureComponent {
-    state = {category: {}};
+    state = {category: []};
 
     componentDidMount() {
         const loadedData = getSortedItemList();
@@ -16,21 +16,16 @@ export default class Category extends PureComponent {
         });
     }
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         /*
          * You can get the category data from the category state:
          * const { category } = this.state;
          */
-        const {category: {products}} = this.state;
 
         return (
             <List className="list">
-                {this.state.category.products &&
-                products.map((item) => {
+                {this.state.category &&
+                this.state.category.map((item) => {
                     return (
                         <CategoryItem
                             key={item.id}
@@ -47,7 +42,7 @@ export default class Category extends PureComponent {
                         />
                     );
                 })
-            }
+                }
             </List>
         );
     }

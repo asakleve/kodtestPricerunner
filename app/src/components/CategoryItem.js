@@ -17,23 +17,23 @@ const styles = () => ({
         flexWrap: 'wrap',
         borderBottom: '2px solid #eee'
     },
-    buttonWrapper:{
+    buttonWrapper: {
         paddingLeft: 40,
         paddingRight: 10,
-        display:'flex',
+        display: 'flex',
 
         '@media (max-width:768px)': {
             display: 'none',
         }
-        },
+    },
     butt: {
         width: 120,
-        marginTop:45,
+        marginTop: 45,
         background: 'dodgerblue',
-        fontSize:15,
-        borderRadius:5,
+        fontSize: 15,
+        borderRadius: 5,
         fontFamily: 'Maven Pro',
-        color:'white',
+        color: 'white',
     },
     firstinfo: {
         display: 'flex',
@@ -60,8 +60,8 @@ const styles = () => ({
         fontSize: 20,
     },
     currency: {
-            fontSize: 20,
-        },
+        fontSize: 20,
+    },
     listItemText: {
         marginLeft: 20,
         fontSize: 20,
@@ -70,7 +70,7 @@ const styles = () => ({
         height: 80,
         width: 'auto',
     },
-    desc:{
+    desc: {
         '@media (max-width:768px)': {
             display: 'none',
         }
@@ -82,7 +82,6 @@ class CategoryItem extends PureComponent {
 
     render() {
         const {
-            id,
             name,
             description,
             url,
@@ -98,22 +97,23 @@ class CategoryItem extends PureComponent {
         return (
             <ListItem className={classes.listItem}>
                 <div className={classes.firstinfo}>
-                    <img className={classes.image} src={image}/>
-                    <ListItemText primary={name} classes={{ secondary: this.props.classes.desc }} secondary={description}/>
+                    <img className={classes.image} src={image} alt={""}/>
+                    <ListItemText primary={name} classes={{secondary: this.props.classes.desc}}
+                                  secondary={description}/>
                 </div>
                 <div className={classes.buttonWrapper}>
                     <a href={url}>
-                    <button className={classes.butt}>
-                        Jämför pris
-                    </button>
-                </a>
+                        <button className={classes.butt}>
+                            Jämför pris
+                        </button>
+                    </a>
                 </div>
                 <div className={classes.extrainfo}>
                     <Rating
                         readOnly={true}
                         value={averageRating}
                         max={5}
-                        classes={{icon:classes.star, iconButton:classes.starButton}}
+                        classes={{icon: classes.star, iconButton: classes.starButton}}
                     />
                     <Typography className={classes.merchants}>
                         {numberOfMerchants} butiker
@@ -130,8 +130,9 @@ class CategoryItem extends PureComponent {
         );
     }
 }
+
 CategoryItem.propTypes = {
-    id: PropTypes.number,
+    id: PropTypes.string,
     description: PropTypes.string,
     name: PropTypes.string,
     url: PropTypes.string,
@@ -139,7 +140,7 @@ CategoryItem.propTypes = {
     amount: PropTypes.number,
     currency: PropTypes.string,
     image: PropTypes.string,
-    averageRating: PropTypes.string
+    averageRating: PropTypes.number
 };
 
 
