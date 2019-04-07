@@ -32,10 +32,10 @@ export default class CategoryItem extends PureComponent {
                 />
                 <ListItemText primary={name} secondary={description}/>
                 <Typography className="merchants">
-                    {numberOfMerchants}
+                    {numberOfMerchants} butiker
                 </Typography>
                 <Typography className="amount">
-                    {amount}
+                   fr {amount}
                 </Typography>
                 <Typography className="currency">
                     {currency}

@@ -18,7 +18,6 @@ export default class Category extends PureComponent {
 
     constructor(props) {
         super(props);
-
     }
 
     render() {
