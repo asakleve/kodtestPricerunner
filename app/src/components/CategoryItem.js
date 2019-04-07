@@ -25,12 +25,21 @@ export default class CategoryItem extends PureComponent {
 
         return (
             <ListItem className="listItem">
+                <div className="firstinfo">
                 <img className="image" src={image}/>
-                <Rating readOnly={true}
-                    value={averageRating}
-                    max={5}
-                />
                 <ListItemText primary={name} secondary={description}/>
+                 <div className="butt">
+                <Button variant="contained" href={url} className="button">
+                    Jämför pris
+                </Button>
+                 </div>
+                </div>
+                <div className="extrainfo">
+                    <Rating
+                        readOnly={true}
+                        value={averageRating}
+                        max={5}
+                    />
                 <Typography className="merchants">
                     {numberOfMerchants} butiker
                 </Typography>
@@ -40,9 +49,8 @@ export default class CategoryItem extends PureComponent {
                 <Typography className="currency">
                     {currency}
                 </Typography>
-                <Button variant="contained" href={url} className="button">
-                    Jämför pris
-                </Button>
+                </div>
+
             </ListItem>
         );
     }

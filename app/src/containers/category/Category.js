@@ -29,7 +29,6 @@ export default class Category extends PureComponent {
 
         return (
             <List className="list">
-                /* sortera på rank*/
                 {this.state.category.products &&
                 products.map((item) => {
                     return (
