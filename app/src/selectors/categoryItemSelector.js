@@ -5,11 +5,7 @@ const list = categoryItems.products;
 
 
 export function getSortedItemList() {
-    list.sort(sortByRating);
-    list.map(item => {
-         item.cheapestPrice.amount = formatPrice(item.cheapestPrice.amount);
-    });
-    return list;
+    return list.sort(sortByRating);
 }
 
 export const sortByRating = (a, b) => {
@@ -20,12 +16,4 @@ export const sortByRating = (a, b) => {
         return -1;
     }
     return 0;
-};
-
-export const formatPrice = (amount) => {
-    const price = parseInt(amount);
-    Math.floor(price);
-    Math.ceil(price);
-// add space
-    return price;
 };

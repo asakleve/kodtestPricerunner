@@ -16,6 +16,10 @@ const styles = () => ({
             display: 'none',
         }
     },
+    link:{
+        color: "white",
+        textDecoration: "none"
+    }
 });
 
 class CompareButton extends PureComponent{
@@ -28,7 +32,7 @@ class CompareButton extends PureComponent{
 
         return(
             <div className={classes.buttonWrapper}>
-                <a href={url}>
+                <a href={url} className={classes.link}>
                         Jämför pris
                 </a>
             </div>

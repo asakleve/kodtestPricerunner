@@ -8,6 +8,13 @@ import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core';
 import CompareButton from "./CompareButton";
 
+const formatPrice = (amount, currency) => {
+    const price = String(Math.round(parseInt(amount)));
+    const thousands = price.substr(-6,Math.min(3,price.length-3));
+    const hundreds = price.substr(-3,3);
+    return `${thousands} ${hundreds} ${currency}`;
+};
+
 const styles = () => ({
 
     listItem: {
@@ -84,7 +91,7 @@ class CategoryItem extends PureComponent {
                     <ListItemText primary={name} classes={{secondary: this.props.classes.desc}}
                                   secondary={description}/>
                 </div>
-                <CompareButton/>
+                <CompareButton url={url}/>
                 <div className={classes.extrainfo}>
                     <Rating
                         readOnly={true}
@@ -96,10 +103,7 @@ class CategoryItem extends PureComponent {
                         {numberOfMerchants} butiker
                     </Typography>
                     <Typography className={classes.amount}>
-                        fr. {amount}
-                    </Typography>
-                    <Typography className={classes.currency}>
-                        {currency}
+                        fr. {formatPrice(amount, currency)}
                     </Typography>
                 </div>
 
@@ -114,7 +118,7 @@ CategoryItem.propTypes = {
     name: PropTypes.string,
     url: PropTypes.string,
     numberOfMerchants: PropTypes.number,
-    amount: PropTypes.number,
+    amount: PropTypes.string,
     currency: PropTypes.string,
     image: PropTypes.string,
     averageRating: PropTypes.number

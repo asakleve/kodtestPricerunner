@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/src/components/CategoryItem.js" line="108" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/components/CategoryItem.js" line="112" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b446b42d-ab78-41ca-81a2-0b134f925c92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/components/CategoryItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/CategoryItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/CompareButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/CompareButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/containers/category/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/containers/category/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/containers/category/Category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/containers/category/Category.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/containers/root/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/containers/root/Root.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/containers/root/Root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/containers/root/Root.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/selectors/categoryItemSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/selectors/categoryItemSelector.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +30,7 @@
           <entry key="js" value="38" />
           <entry key="json" value="11" />
           <entry key="scss" value="9" />
-          <entry key="ts" value="5" />
+          <entry key="ts" value="6" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -47,21 +41,21 @@
           <entry key="JavaScript" value="38" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="9" />
-          <entry key="TypeScript" value="5" />
+          <entry key="TypeScript" value="6" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="13" />
-          <entry key="js" value="10004" />
+          <entry key="js" value="10304" />
           <entry key="scss" value="1762" />
           <entry key="svg" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="10004" />
+          <entry key="JavaScript" value="10304" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="SCSS" value="1762" />
           <entry key="SVG" value="27" />
@@ -77,135 +71,107 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.6689775">
-          <split-first>
-            <splitter split-orientation="horizontal" split-proportion="0.5">
-              <split-first>
-                <leaf>
-                  <file pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.js">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="200">
-                          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-                          <folding>
-                            <element signature="e#0#26#0" expanded="true" />
-                          </folding>
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/app/src/components/Logo.js">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="480">
-                          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/app/src/assets/mobile.json">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="-1866">
-                          <caret line="8" column="20" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="20" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/app/src/containers/category/Category.js">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="1260">
-                          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-                          <folding>
-                            <element signature="e#0#43#0" expanded="true" />
-                          </folding>
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/app/src/components/CompareButton.js">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="40">
-                          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-end-line="3" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/app/src/selectors/categoryItemSelector.js">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="220">
-                          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/app/src/assets/_fonts.scss">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="40">
-                          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="10" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.scss">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="520">
-                          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/app/src/components/CategoryItem.js">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="489">
-                          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-                          <folding>
-                            <element signature="e#0#43#0" expanded="true" />
-                          </folding>
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                </leaf>
-              </split-first>
-              <split-second>
-                <leaf>
-                  <file pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.js">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="200">
-                          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-                          <folding>
-                            <element signature="e#0#26#0" expanded="true" />
-                          </folding>
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                </leaf>
-              </split-second>
-            </splitter>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/app/src/components/Logo.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="140">
-                      <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/components/Logo.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/assets/mobile.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="234">
+                  <caret line="113" column="20" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/containers/category/Category.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="756">
+                  <caret line="50" column="34" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#43#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/components/CompareButton.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/selectors/categoryItemSelector.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="20">
+                  <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/assets/_fonts.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/src/components/CategoryItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#0#43#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-first>
       <split-second>
         <leaf>
@@ -249,9 +215,7 @@
         <option value="$PROJECT_DIR$/app/src/containers/category/CategoryItems.js" />
         <option value="$PROJECT_DIR$/app/package.json" />
         <option value="$PROJECT_DIR$/app/src/containers/category/CategoryItem.js" />
-        <option value="$PROJECT_DIR$/app/src/components/CategoryItem.js" />
         <option value="$PROJECT_DIR$/app/src/components/CompareButton.js" />
-        <option value="$PROJECT_DIR$/app/src/selectors/categoryItemSelector.js" />
         <option value="$PROJECT_DIR$/app/src/containers/category/Category.scss" />
         <option value="$PROJECT_DIR$/app/src/containers/category/Category.js" />
         <option value="$PROJECT_DIR$/app/src/assets/logo_svg.xml" />
@@ -259,6 +223,8 @@
         <option value="$PROJECT_DIR$/app/src/containers/root/Root.js" />
         <option value="$PROJECT_DIR$/app/src/components/Logo.js" />
         <option value="$PROJECT_DIR$/app/src/containers/root/Root.scss" />
+        <option value="$PROJECT_DIR$/app/src/selectors/categoryItemSelector.js" />
+        <option value="$PROJECT_DIR$/app/src/components/CategoryItem.js" />
       </list>
     </option>
   </component>
@@ -280,8 +246,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1822" />
-    <option name="y" value="-70" />
+    <option name="x" value="-1858" />
+    <option name="y" value="163" />
     <option name="width" value="1992" />
     <option name="height" value="999" />
   </component>
@@ -399,18 +365,18 @@
       <option name="presentableId" value="Default" />
       <updated>1554309200429</updated>
       <workItem from="1554309201646" duration="5044000" />
-      <workItem from="1554447644054" duration="64610000" />
+      <workItem from="1554447644054" duration="66371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69654000" />
+    <option name="totallyTimeSpent" value="71415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1822" y="-70" width="1992" height="999" extended-state="0" />
+    <frame x="-1821" y="-71" width="1992" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.03363454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1561245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -535,23 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3764">
-          <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/CategoryItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -562,10 +511,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/containers/category/Category.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/Logo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/selectors/categoryItemSelector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/assets/mobile.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1866">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="234">
+          <caret line="113" column="20" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -578,45 +568,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/containers/category/Category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        <state relative-caret-position="756">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="34" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/containers/category/Category.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/selectors/categoryItemSelector.js">
+    <entry file="file://$PROJECT_DIR$/app/src/components/CategoryItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/Logo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="280">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/containers/root/Root.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
