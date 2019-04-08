@@ -1,12 +1,13 @@
 import {getCategoryList} from '../containers/category/state/category';
 
 const categoryItems = getCategoryList();
+const list = categoryItems.products;
+
 
 export function getSortedItemList() {
-    const list = categoryItems.products;
     list.sort(sortByRating);
     list.map(item => {
-        return item.cheapestPrice.amount = formatPrice(item.cheapestPrice.amount);
+         item.cheapestPrice.amount = formatPrice(item.cheapestPrice.amount);
     });
     return list;
 }

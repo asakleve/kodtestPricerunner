@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography/Typography";
 import Rating from 'material-ui-rating';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core';
+import CompareButton from "./CompareButton";
 
 const styles = () => ({
 
@@ -16,24 +17,6 @@ const styles = () => ({
         background: 'white',
         flexWrap: 'wrap',
         borderBottom: '2px solid #eee'
-    },
-    buttonWrapper: {
-        paddingLeft: 40,
-        paddingRight: 10,
-        display: 'flex',
-
-        '@media (max-width:768px)': {
-            display: 'none',
-        }
-    },
-    butt: {
-        width: 120,
-        marginTop: 45,
-        background: 'dodgerblue',
-        fontSize: 15,
-        borderRadius: 5,
-        fontFamily: 'Maven Pro',
-        color: 'white',
     },
     firstinfo: {
         display: 'flex',
@@ -71,7 +54,7 @@ const styles = () => ({
         width: 'auto',
     },
     desc: {
-        '@media (max-width:768px)': {
+        '@media (max-width:767px)': {
             display: 'none',
         }
     }
@@ -101,13 +84,7 @@ class CategoryItem extends PureComponent {
                     <ListItemText primary={name} classes={{secondary: this.props.classes.desc}}
                                   secondary={description}/>
                 </div>
-                <div className={classes.buttonWrapper}>
-                    <a href={url}>
-                        <button className={classes.butt}>
-                            Jämför pris
-                        </button>
-                    </a>
-                </div>
+                <CompareButton/>
                 <div className={classes.extrainfo}>
                     <Rating
                         readOnly={true}

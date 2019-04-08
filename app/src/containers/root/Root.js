@@ -1,12 +1,14 @@
 import React from 'react';
 import Category from '../category/Category';
 import './Root.scss';
+import Logo from '../../components/Logo';
 
 export default function App() {
+
   return (
     <div>
       <header className="header">
-        <strong className="header__pricerunner">PriceRunner</strong>
+          <Logo />
       </header>
       <div className="container">
         <div className="content">
